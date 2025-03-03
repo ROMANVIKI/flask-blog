@@ -6,6 +6,9 @@ from werkzeug.utils import secure_filename
 import json, os
 import math
 from flask_migrate import Migrate
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # try:
 #     with open(r"tech_blog\config.json", "r") as c:
